@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="footer_background">#222</color>
+    <color name="footer">#55e</color>
+    <color name="title_background">#222</color>
+    <color name="title">#eb4</color>
+    <color name="prompt_background">#000</color>
+    <color name="prompt">#5d5</color>
+    <color name="blank_tile">#000</color>
+    <color name="tile_dimmer">#6000</color>
+    <color name="numeric_tile_background">#DDD</color>
+    <color name="numeric_tile_text">#006</color>
+    <color name="countdown_tile_text">#EEE</color>
+    <color name="congrats">#df8</color>
+    <color name="congrats_background">#4000</color>
+    <color name="stats">#8f8</color>
+    <color name="stats_background">#8000</color>
+    <color name="background">#000</color>
+</resources>

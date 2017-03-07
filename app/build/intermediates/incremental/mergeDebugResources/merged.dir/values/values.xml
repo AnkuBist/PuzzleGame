@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#000</color>
+    <color name="blank_tile">#000</color>
+    <color name="congrats">#df8</color>
+    <color name="congrats_background">#4000</color>
+    <color name="countdown_tile_text">#EEE</color>
+    <color name="footer">#55e</color>
+    <color name="footer_background">#222</color>
+    <color name="numeric_tile_background">#DDD</color>
+    <color name="numeric_tile_text">#006</color>
+    <color name="prompt">#5d5</color>
+    <color name="prompt_background">#000</color>
+    <color name="stats">#8f8</color>
+    <color name="stats_background">#8000</color>
+    <color name="tile_dimmer">#6000</color>
+    <color name="title">#eb4</color>
+    <color name="title_background">#222</color>
+    <string name="add_picture_item">Add picture</string>
+    <string name="app_name">n-Puzzle</string>
+    <string name="change_picture">Change picture</string>
+    <string name="del_picture_item">Delete picture</string>
+    <string name="difficulty_easy">Easy (3x3)</string>
+    <string name="difficulty_hard">Hard (5x5)</string>
+    <string name="difficulty_medium">Medium (4x4)</string>
+    <string name="image_delete_error">Could not delete that picture.</string>
+    <string name="image_load_error">Could not load the picture. Please select another one.</string>
+    <string name="image_load_progress">Loading picture...</string>
+    <string name="image_nothing_to_delete_comment">You have no pictures added. Push the BACK button to return.</string>
+    <string name="image_prompt">Please select a picture</string>
+    <string name="image_prompt_comment">To add your pictures click Menu button</string>
+    <string name="image_prompt_delete">Select a picture to delete</string>
+    <string name="image_selection">Puzzle image selection</string>
+    <string name="link_author"><a href="#">Libre software by Stan Livitski</a></string>
+    <string name="link_license"><a href="#">View license</a></string>
+    <string name="no">No</string>
+    <string name="no_gallery_error">Could not find an application that manages pictures on this device.</string>
+    <string name="ok_button">Ok</string>
+    <string name="reshuffle">Reshuffle</string>
+    <string name="text_congratulations">Congratulations!</string>
+    <string name="text_next_puzzle">Play again?</string>
+    <string name="text_puzzle_blurb_1">Need help writing Android app?</string>
+    <string name="text_puzzle_blurb_2">Contact us at <a href="#">http://livitski.com/contact</a>.</string>
+    <string name="text_puzzle_blurb_url">http://livitski.com/contact</string>
+    <string name="text_puzzle_solved">You solved this puzzle in %1$d move%2$s.</string>
+    <string name="yes">Yes</string>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/you_win_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <ImageView
+        android:id="@+id/congratulations_picture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/congratulations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="12dp"
+        android:background="@color/congrats_background"
+        android:gravity="center"
+        android:text="@string/text_congratulations"
+        android:textColor="@color/congrats"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/text_puzzle_solved"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/congratulations"
+        android:background="@color/congrats_background"
+        android:gravity="center"
+        android:textColor="@color/congrats"
+        android:textSize="16dp" />
+
+    <LinearLayout
+        android:id="@+id/text_puzzle_blurb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/text_puzzle_blurb_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/stats_background"
+            android:gravity="center"
+            android:text="@string/text_puzzle_blurb_1"
+            android:textColor="@color/stats"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/text_puzzle_blurb_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/stats_background"
+            android:gravity="center"
+            android:text="@string/text_puzzle_blurb_2"
+            android:textColor="@color/stats"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next_puzzle_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/text_puzzle_blurb"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:text="@string/text_next_puzzle"
+        android:textSize="14dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

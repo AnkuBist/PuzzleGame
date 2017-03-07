@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_add_picture"
+        android:title="@string/add_picture_item"></item>
+    <item
+        android:id="@+id/item_delete_picture"
+        android:title="@string/del_picture_item"></item>
+</menu>
